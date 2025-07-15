@@ -2,7 +2,7 @@ import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from '@apollo/server/standalone'
 
 const users = [
-   { id:"1", nmae: " Abhi Yadav", age: 20, isMarried: false },
+   { id:"1", name: " Abhi Yadav", age: 20, isMarried: false },
    { id:"2", name:"John Doe", age:30, isMarried: true },
    { id:"3", name:"Johnny Papa", age:22, isMarried: true },
    { id:"4", name:"Jane Simth", age:34, isMarried: false },    
