@@ -54,7 +54,7 @@ function App() {
 
   if (getUsersLoading) return <p> Data loading...</p>;
 
-  if (getUsersError) return <p> Error: {error.message}</p>;
+  if (getUsersError) return <p> Error: {getUsersError.message}</p>;
 
   const handleCreateUser = async () => {
     console.log(newUser);
